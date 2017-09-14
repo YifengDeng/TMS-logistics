@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.yydscm.config.DataSourceConfig",
+      "name": "spring.datasource.primary",
+      "sourceMethod": "PrimaryDatasource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.yydscm.config.DataSourceConfig",
+      "name": "spring.datasource.secondary",
+      "sourceMethod": "WxDatasource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
